@@ -5,6 +5,9 @@
     </div>
     <div class="card-body bg-dark text-light">
       <h3>{{ pics.title }}</h3>
+      <p class="pt-2">
+        {{ pics.explanation }}
+      </p>
     </div>
   </div>
 </template>
@@ -26,7 +29,7 @@ export default {
 img{
   object-fit: contain;
   object-position: center;
-  max-height: 50vh;
-  max-width: 50vw;
+  max-height: 60vh;
+  max-width: 80vw;
 }
 </style>
